@@ -1,0 +1,33 @@
+<div class="confirmation-card">
+    <p>Company Profile</p>
+    <hr>
+    <div class="content">
+        <mat-card>
+            <mat-card-content>
+                <mat-card-title>Company Details</mat-card-title>
+                <mat-list>
+                    <mat-list-item>
+                        <strong>Name:</strong>
+                        <span>{{companyName}}</span>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <strong>Address:</strong>
+                        <span>{{companyAddress}}</span>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <strong>GST Number:</strong>
+                        <span>{{companyGSTNumber}}</span>
+                    </mat-list-item>
+                </mat-list>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="success-label">
+        <div class="label-container">
+            <label>Profile Created! Welcome Onboard</label>
+        </div>
+        <div class="button-container">
+            <button mat-raised-button color="primary" (click)="onClickShow()">Show Dashboard</button>
+        </div>
+    </div>
+</div>

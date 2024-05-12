@@ -1,0 +1,64 @@
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  .card-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 400px; /* Adjust card width as needed */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners to the card */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333; /* Dark text color */
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: #666; /* Light text color */
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0 10px;
+  }
+  

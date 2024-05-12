@@ -1,0 +1,38 @@
+.page {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-actions {
+    margin-left: auto; /* Push the logout button to the right */
+  }
+  
+  .search-container {
+    margin-bottom: 20px; /* Add margin below the search bar */
+  }
+  
+  .mat-form-field {
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  /* Adjust other styles as needed */
+  
+  .logout-button {
+    background-color: #007bff;
+    color: white !important;
+    border: 1px solid #007bff; 
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  

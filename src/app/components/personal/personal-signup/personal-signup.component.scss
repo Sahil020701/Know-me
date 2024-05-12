@@ -1,0 +1,39 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Adjusted to align content to the top */
+    height: 100vh;
+    padding: 20px; /* Added padding to create space around the content */
+    box-sizing: border-box; /* Ensures padding is included in the height calculation */
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange contents vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+
+.headlabel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.mat-form-field {
+    width: 100%;
+}
+
+.signupbtn {
+    text-align: center;
+}

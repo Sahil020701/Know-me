@@ -1,0 +1,34 @@
+<div class="confirmation-card">
+    <p>Personal Profile</p>
+    <hr>
+    <div class="content">
+        <mat-card>
+            <mat-card-content>
+                <mat-card-title>Personal Profile</mat-card-title>
+                <mat-list>
+                    <mat-list-item>
+                        <strong>Name: </strong>
+                        <span>{{Pname}}</span>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <strong>Address: </strong>
+                        <span>{{address}}</span>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <strong>Email: </strong>
+                        <span>{{email}}</span>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <strong>Phone No: </strong>
+                        <span>{{phone}}</span>
+                    </mat-list-item>
+                </mat-list>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="success-label">
+        <label>Profile Created!</label>
+        <label>Welcome Onboard</label>
+        <button mat-raised-button color="primary" (click)="onClickShare()">Share Profile</button>
+    </div>
+</div>

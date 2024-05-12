@@ -1,0 +1,48 @@
+<div class="page">
+    <div class="card">
+        <label class="headlabel">Sign up</label>
+        <div class="input-field">
+            <mat-form-field class="input" appearance="fill">
+                <mat-label>Name</mat-label>
+                <input matInput type="text" [(ngModel)]="Pname" name="Cname" required>
+            </mat-form-field>
+        </div>
+        <div class="input-field">
+            <mat-form-field class="input" appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput type="email" [(ngModel)]="email" name="email" required>
+            </mat-form-field>
+        </div>
+
+        <div class="input-field">
+            <mat-form-field class="input" appearance="fill">
+                <mat-label>Phone Number</mat-label>
+                <input matInput type="number" [(ngModel)]="phoneno" name="Cname" required>
+            </mat-form-field>
+        </div>
+        <div class="input-field">
+            <mat-form-field class="input" appearance="fill">
+                <mat-label>Address</mat-label>
+                <input matInput type="text" [(ngModel)]="address" name="email">
+            </mat-form-field>
+        </div>
+        <div class="input-field">
+            <mat-form-field class="input" appearance="fill">
+                <mat-label>Password</mat-label>
+                <input matInput type="password" [(ngModel)]="password" name="password">
+            </mat-form-field>
+        </div>
+        <div class="input-field">
+            <mat-form-field class="input" appearance="fill">
+                <mat-label>Confirm Password</mat-label>
+                <input matInput type="password" [(ngModel)]="matchpassword" name="matchpassword">
+            </mat-form-field>
+        </div>
+        <div class="checkbox">
+            <mat-checkbox [(ngModel)]="termsChecked">I agree to the terms and conditions</mat-checkbox>
+        </div>
+        <div class="signupbtn">
+            <button mat-button color="primary" [disabled]="!passwordsMatch() || !termsChecked" (click)="checkValidations()">Sign Up</button>
+        </div>
+    </div>
+</div>
